@@ -40,35 +40,35 @@ Large Language Models (LLMs) are increasingly used to automate literature review
 
 ### Temporal Misalignment & Cutoff Boundaries
 * **Time-Aware Language Models as Temporal Knowledge Bases**  
-  *Dhingra et al., 2022, TACL* | [DOI: 10.1162/tacl_a_00459](https://doi.org/10.1162/tacl_a_00459)  
-  *Introduces timestamp conditioning to help LLMs track factual decay.*
+  *Dhingra et al., 2022, TACL* | [DOI: 10.1162/tacl_a_00459](https://doi.org/10.1162/tacl_a_00459)[cite: 2]  
+  *Introduces timestamp conditioning to help LLMs track factual decay.*[cite: 2]
 
 * **Can Prompts Rewind Time for LLMs? Evaluating the Effectiveness of Prompted Knowledge Cutoffs**  
-  *Gao et al., 2025, arXiv* | [arXiv:2510.02340](https://arxiv.org/abs/2510.02340)  
-  *Evaluates whether prompting can successfully prevent LLMs from leaking post-cutoff information.*
+  *Gao et al., 2025, arXiv* | [arXiv:2510.02340](https://arxiv.org/abs/2510.02340)[cite: 2]  
+  *Evaluates whether prompting can successfully prevent LLMs from leaking post-cutoff information.*[cite: 2]
 
 ### Automated Survey & Literature Synthesis
 * **AutoSurvey: Large Language Models Can Automatically Write Surveys**  
-  *Wang et al., 2024, NeurIPS* | [arXiv:2406.10252](https://arxiv.org/abs/2406.10252)  
-  *Presents an automated survey drafting framework built over arXiv abstract indices.*
+  *Wang et al., 2024, NeurIPS* | [arXiv:2406.10252](https://arxiv.org/abs/2406.10252)[cite: 2]  
+  *Presents an automated survey drafting framework built over arXiv abstract indices.*[cite: 2]
 
 * **Automated Literature Research and Review-Generation Method Based on LLMs**  
-  *Wu et al., 2025, National Science Review* | [DOI: 10.1093/nsr/nwaf169](https://doi.org/10.1093/nsr/nwaf169)  
-  *Combines RAG with domain-specific synthesis to reduce citation lag in survey drafting.*
+  *Wu et al., 2025, National Science Review* | [DOI: 10.1093/nsr/nwaf169](https://doi.org/10.1093/nsr/nwaf169)[cite: 2]  
+  *Combines RAG with domain-specific synthesis to reduce citation lag in survey drafting.*[cite: 2]
 
 ### Citation Hallucination & Integrity
 * **CheckIfExist: Detecting Citation Hallucinations in the Era of AI-Generated Content**  
-  *Abbonato, 2026, arXiv* | [arXiv:2602.15871](https://arxiv.org/abs/2602.15871)  
-  *Presents automated detection pipelines for verifying generated citations against scholarly databases.*
+  *Abbonato, 2026, arXiv* | [arXiv:2602.15871](https://arxiv.org/abs/2602.15871)[cite: 2]  
+  *Presents automated detection pipelines for verifying generated citations against scholarly databases.*[cite: 2]
 
 ---
 
 ## Datasets
-* **FreshQA** | [Repository](https://github.com/google-research/freshllms)  
+* **FreshQA** | [Repository](https://github.com/freshllms/freshqa)  
   *A dynamic benchmark with ~600 questions categorized by temporal change rate (fast-changing vs. static).*
-* **RealTime QA** | [Repository](https://github.com/realtimeqa/realtimeqa)  
+* **RealTime QA** | [Repository](https://github.com/realtimeqa/realtimeqa_public)  
   *Weekly updated question-answering benchmark to evaluate LLMs on current events.*
-* **StreamingQA** | [Repository](https://github.com/google-research/language/tree/master/language/streamingqa)  
+* **StreamingQA** | [Repository](https://github.com/google-deepmind/streamingqa)  
   *Chronologically structured QA dataset tracking knowledge adaptation over time.*
 
 ---
@@ -84,9 +84,9 @@ Large Language Models (LLMs) are increasingly used to automate literature review
 
 ## GitHub Implementations
 * **[AutoSurvey Pipeline](https://github.com/hkust-nlp/AutoSurvey)** | Automated paper retrieval, outline generation, and survey drafting.
-* **[FreshLLMs Implementation](https://github.com/google-research/freshllms)** | Search-engine-augmented prompting methods to handle dynamic knowledge.
-* **[RAG for Systematic Reviews](https://github.com)** | Open-source framework implementing RAG pipelines for literature synthesis.
-* **[Temporal Knowledge Editing](https://github.com)** | Parameter editing tools to update factual knowledge without catastrophic forgetting.
+* **[FreshLLMs Implementation](https://github.com/freshllms/freshqa)** | Search-engine-augmented prompting methods to handle dynamic knowledge.
+* **[RealTime QA Pipeline](https://github.com/realtimeqa/realtimeqa_public)** | Open-source framework for continuous evaluation on streaming news data.
+* **[StreamingQA Evaluation Benchmark](https://github.com/google-deepmind/streamingqa)** | Evaluation harness for chronological knowledge adaptation and temporal drift.
 * **[LangChain RAG Modules](https://github.com/langchain-ai/langchain)** | Production-ready tools for connecting search engines to LLM synthesis workflows.
 
 ---
