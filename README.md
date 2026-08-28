@@ -24,7 +24,6 @@ Large Language Models (LLMs) are increasingly used to automate literature review
 ---
 
 ## AI-Assisted Research Paper
-## AI-Assisted Research Paper
 * **Title:** Knowledge Cutoff Effects on LLM-Generated Literature Reviews in Rapidly Evolving Fields: A Review of Temporal Limitations, Mitigation Strategies, and Open Research Problems
 * **Access Paper:** [View Paper PDF](paper/AI_Assisted_Research_Paper.pdf) — generated with Claude on 21/08/2026 using a single generation request. The paper proposes a temporal failure taxonomy for knowledge cutoffs, evaluates mitigation strategies like Retrieval-Augmented Generation (RAG) and temporal knowledge editing, and synthesizes citation accuracy trends across rapidly evolving scientific fields. It is preserved here exactly as originally generated, including its own citation errors — see the audit below.
 
